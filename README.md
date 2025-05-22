@@ -23,8 +23,8 @@ Step 6 : Check if the policy has converged by comparing the previous policy old_
 Step 7 : Return the final state-values V and the optimal policy pi.
 
 ## POLICY IMPROVEMENT FUNCTION
-#### Name : Thiyagarajan A
-#### Register Number : 212222240110
+#### Name : immanuvel stanley A
+#### Register Number : 212222040056
 ```python
 def policy_improvement(V, P, gamma=1.0):
     Q = np.zeros((len(P), len(P[0])), dtype=np.float64)
@@ -38,8 +38,8 @@ def policy_improvement(V, P, gamma=1.0):
     return new_pi
 ```
 ## POLICY ITERATION FUNCTION
-#### Name : Thiyagarajan A
-#### Register Number : 212222240110
+#### Name : immanuvel stanley
+#### Register Number : 212222040056
 ```python
 def policy_iteration(P, gamma=1.0,theta=1e-10):
   random_actions=np.random.choice(tuple(P[0].keys()),len(P))
